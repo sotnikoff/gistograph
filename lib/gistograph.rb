@@ -1,5 +1,8 @@
 require "gistograph/version"
 
 module Gistograph
-  # Your code goes here...
+  extend Dry::Configurable
+
+  setting :token
+  end
 end
